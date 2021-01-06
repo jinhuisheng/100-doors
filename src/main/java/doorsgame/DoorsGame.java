@@ -1,4 +1,4 @@
-package doors;
+package doorsgame;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,10 +8,10 @@ import java.util.stream.IntStream;
  * @author huisheng.jin
  * @date 2021/1/6.
  */
-public class Doors {
+public class DoorsGame {
     private final List<Door> doors;
 
-    public Doors(int doorCount) {
+    public DoorsGame(int doorCount) {
         doors = IntStream.range(0, doorCount).boxed().map(i -> new Door()).collect(Collectors.toList());
     }
 

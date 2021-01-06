@@ -1,4 +1,4 @@
-package doors;
+package doorsgame;
 
 /**
  * @author huisheng.jin

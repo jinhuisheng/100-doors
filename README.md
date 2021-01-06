@@ -1,4 +1,4 @@
-# 100-doors
+# 100-doorsGame
 
 初始化  all close
 第一次visit  all open
